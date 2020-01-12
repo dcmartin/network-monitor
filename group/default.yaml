@@ -1,0 +1,25 @@
+###
+## group/default.yaml
+###
+
+default_view:
+  name: HOME
+  view: true
+  control: hidden
+  icon: mdi:home
+  entities:
+    - group.info
+    - group.intranet_link
+    - group.internet_link
+    - group.weather
+
+info:
+  name: Info
+  view: false
+  control: hidden
+  entities:
+    - sensor.date
+    - sensor.time
+    - sensor.host_lan_ip
+    - sensor.host_wan_ip
+    - sun.sun
