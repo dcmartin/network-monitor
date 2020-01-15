@@ -4,6 +4,8 @@ exclude:
     - sensor.host_wan_ip
     - sensor.host_lan_ip
     - sensor.host_uname
+    - sensor.intranet_link
+    - sensor.internet_link
   domains:
     - sun
     - automation
